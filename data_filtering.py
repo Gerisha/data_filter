@@ -30,4 +30,4 @@ df = pd.DataFrame(
     list(zip(names, distance, mass, radius, gravity)),
     columns=["Star Name", "Distance", "Mass", "Radius", "Gravity"],
 )
-df.to_csv('Final1.csv')
+df.to_csv('final1.csv')
